@@ -1,28 +1,203 @@
-!DOCTYPE html>
-<html>
-	<head>
-		  <title> Welcome to sangramkesharidash.github.io </title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:sangram.dash.iiith@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sangram Keshari Dash | AI Platform &amp; Site Reliability Engineer</title>
+	<meta name="description" content="Sangram Keshari Dash: Reliability and Distributed Systems Engineer with 18+ years of experience, specializing in AI/ML Platform Engineering, Kubernetes, OpenShift and AWS.">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="wrap">
+			<a class="brand" href="#top">Sangram Dash</a>
+			<nav aria-label="Primary">
+				<ul>
+					<li><a href="#career">Career</a></li>
+					<li><a href="#journey">Journey</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="cv.html">CV</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="top">
+		<section class="hero">
+			<div class="wrap">
+				<p class="eyebrow">Hello, I'm</p>
+				<h1>Sangram Keshari Dash</h1>
+				<p class="role-line">AI Platform &amp; Site Reliability Engineer</p>
+				<p class="lead">Reliability and distributed systems engineer with 18+ years of experience designing, scaling and operating SaaS and cloud platforms across multi-region, multi-cloud environments. Specializing in AI/ML platform engineering: MCP integrations, multi-agent systems and enterprise RAG pipelines.</p>
+				<p class="actions">
+					<a class="btn primary" href="cv.html">View my CV</a>
+					<a class="btn" href="mailto:sangram.dash.iiit@gmail.com">Get in touch</a>
+					<a class="btn" href="https://github.com/sangramkesharidash">GitHub</a>
+				</p>
+				<ul class="stats" aria-label="Highlights">
+					<li><strong>18+</strong><span>years in production engineering</span></li>
+					<li><strong>200+</strong><span>microservices under SLO governance</span></li>
+					<li><strong>50 TB</strong><span>logs per month on ELK</span></li>
+					<li><strong>44%</strong><span>faster deployment cycle</span></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="career" class="section">
+			<div class="wrap">
+				<h2>Professional career</h2>
+				<p class="section-intro">Where I have worked and what I delivered.</p>
+
+				<article class="role">
+					<div class="role-head">
+						<h3>Lead Site Reliability Engineer <span class="at">at IBM India Software Labs</span></h3>
+						<p class="meta">Apr 2022 &ndash; Present &middot; Bengaluru, India</p>
+					</div>
+					<ul>
+						<li>Lead reliability engineering and modernization for IBM MaaS360 (IBM Security), moving operations to an SRE-led model.</li>
+						<li>Govern SRE error budgets across 200+ microservices and hybrid infrastructure spanning VMs, AWS EC2, IBM Kubernetes and Red Hat OpenShift (ROSA).</li>
+						<li>Reduced MTTR and improved MTTD by rationalizing PagerDuty alerts and optimizing on-call workflows.</li>
+						<li>Orchestrate quarterly releases for 200+ SaaS applications on OpenShift and ArgoCD, cutting deployment time by 44% (4 hrs to 2 hrs 15 mins).</li>
+						<li>Run the AI@MaaS360 platform for the IBM Magma GenAI Framework and ContextForge (MCP and A2A) on OpenShift, with global routing through Akamai, AWS NLB and octoDNS.</li>
+						<li>Built an enterprise RAG knowledge base on AWS Bedrock with Titan Text Embeddings.</li>
+						<li>Owned the ELK stack at 50 TB+ of logs per month and upgraded it from 8.13.4 to 8.17.5.</li>
+					</ul>
+					<ul class="tags" aria-label="Technologies">
+						<li>Kubernetes</li><li>OpenShift</li><li>AWS</li><li>Terraform</li><li>ArgoCD</li><li>ELK</li><li>MCP</li><li>RAG</li>
+					</ul>
+				</article>
+
+				<article class="role">
+					<div class="role-head">
+						<h3>Principal Reliability Engineer <span class="at">at Oracle India</span></h3>
+						<p class="meta">Nov 2017 &ndash; Apr 2022 &middot; Hyderabad, India</p>
+					</div>
+					<ul>
+						<li>Production performance engineer and SRE for Oracle Fusion Applications and Hospitality Cloud.</li>
+						<li>Diagnosed latency in UI and batch workloads using Fiddler traces and Java Flight Recorder; resolved WebLogic bottlenecks through JVM, GC and stuck-thread analysis.</li>
+						<li>Scaled clustered environments from 2 to 6 instances across 8-node Exadata X5-2 systems after capacity and headroom analysis.</li>
+						<li>Built health-check automation with shell and RunDeck, and resolved database hangs using AWR/ASH, SQL trace and ORADEBUG.</li>
+					</ul>
+					<ul class="tags" aria-label="Technologies">
+						<li>WebLogic</li><li>JVM tuning</li><li>Exadata</li><li>Oracle DB</li><li>RunDeck</li>
+					</ul>
+				</article>
+
+				<article class="role">
+					<div class="role-head">
+						<h3>Subject Matter Expert, HA/DR <span class="at">at IBM India</span></h3>
+						<p class="meta">Mar 2016 &ndash; Nov 2017 &middot; Noida, India</p>
+					</div>
+					<ul>
+						<li>HA/DR SME for State Street Corporation; led a team of 8&ndash;10 engineers on a 24x7 rotational support model.</li>
+						<li>Handled major incident calls and RCAs, ran DR switchover drills, and led Oracle 11g to 12c upgrades.</li>
+					</ul>
+				</article>
+
+				<details class="earlier">
+					<summary>Earlier roles (2007 &ndash; 2016)</summary>
+					<ul>
+						<li><strong>IT Senior Consultant, Oracle India</strong> (Jul 2012 &ndash; Mar 2016): Fusion Middleware infrastructure, WebLogic, WebCenter Content, F5 BIG-IP and Akamai, Exadata migrations.</li>
+						<li><strong>Sr. Specialist, HCL Comnet</strong> (Sep 2011 &ndash; Jun 2012): Oracle SME for J.P. Morgan Chase India Services.</li>
+						<li><strong>Sr. Associate, Patni Computers</strong> (Jan 2011 &ndash; Aug 2011): Production DBA support for General Electric.</li>
+						<li><strong>Software Engineer, Citigroup</strong> (Dec 2007 &ndash; Dec 2010): Private Banking trading application support.</li>
+					</ul>
+				</details>
+			</div>
+		</section>
+
+		<section id="journey" class="section alt">
+			<div class="wrap">
+				<h2>Career journey</h2>
+				<p class="section-intro">The milestones that shaped my path, from application support to AI platforms.</p>
+
+				<ol class="timeline">
+					<li>
+						<span class="year">2026</span>
+						<h3>M.Tech in AI &amp; Data Science, IIIT Kottayam</h3>
+						<p>Completing a master's alongside a full-time role, with a thesis on stock forecasting using classical, statistical and deep-learning models.</p>
+					</li>
+					<li>
+						<span class="year">2022</span>
+						<h3>Lead SRE at IBM MaaS360</h3>
+						<p>Returned to IBM to lead the shift to an SRE model, then extended into GenAI platform infrastructure.</p>
+					</li>
+					<li>
+						<span class="year">2017</span>
+						<h3>Principal Reliability Engineer at Oracle</h3>
+						<p>Moved from infrastructure administration into performance engineering and SRE for large SaaS platforms.</p>
+					</li>
+					<li>
+						<span class="year">2012</span>
+						<h3>Oracle Product Development IT</h3>
+						<p>Full-stack middleware administration, global traffic management and Exadata migrations.</p>
+					</li>
+					<li>
+						<span class="year">2007</span>
+						<h3>First role at Citigroup</h3>
+						<p>Started in mission-critical investment banking application support, after a B.E. in Information Technology (2006).</p>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<section id="projects" class="section">
+			<div class="wrap">
+				<h2>Projects</h2>
+				<p class="section-intro">Selected platform and research work. More on <a href="https://github.com/sangramkesharidash">GitHub</a>.</p>
+
+				<div class="cards">
+					<article class="card">
+						<h3>AI@MaaS360 platform</h3>
+						<p>Infrastructure for the IBM Magma GenAI Framework and ContextForge MCP and A2A communications, deployed on OpenShift as an AI service.</p>
+						<ul class="tags"><li>OpenShift</li><li>MCP</li><li>Akamai</li></ul>
+					</article>
+					<article class="card">
+						<h3>Enterprise RAG knowledge base</h3>
+						<p>Ingests unstructured data into AWS Bedrock using Titan embeddings and 800-token chunks with 20% overlap.</p>
+						<ul class="tags"><li>AWS Bedrock</li><li>S3</li><li>RAG</li></ul>
+					</article>
+					<article class="card">
+						<h3>TradeVision</h3>
+						<p>M.Tech thesis: a dual-phase framework combining direction classification and time-series regression for NIFTY-50 forecasting.</p>
+						<ul class="tags"><li>XGBoost</li><li>LSTM</li><li>ARIMA+GARCH</li></ul>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="section alt">
+			<div class="wrap">
+				<h2>Skills</h2>
+				<p class="section-intro">The tools I use most.</p>
+				<dl class="skills">
+					<dt>Cloud &amp; platform</dt><dd>AWS, OpenShift (ROSA), Kubernetes, Docker, Terraform, Ansible, Linux</dd>
+					<dt>DevOps &amp; CI/CD</dt><dd>Git, Jenkins, Artifactory, Helm, ArgoCD</dd>
+					<dt>Observability</dt><dd>ELK, Grafana, AppDynamics, New Relic, Instana, ThousandEyes</dd>
+					<dt>Middleware &amp; JVM</dt><dd>WebLogic, Tomcat, JVM tuning, JFR</dd>
+					<dt>Traffic &amp; CDN</dt><dd>F5 BIG-IP (GTM/LTM), Akamai, octoDNS</dd>
+					<dt>Languages</dt><dd>Python, Java, Shell, SQL, PL/SQL, JavaScript</dd>
+					<dt>AI / ML &amp; GenAI</dt><dd>scikit-learn, TensorFlow, PyTorch, NLP, LLMs, RAG, AWS Bedrock, Hugging Face</dd>
+				</dl>
+			</div>
+		</section>
+
+		<section id="cv" class="section">
+			<div class="wrap">
+				<h2>CV</h2>
+				<p class="section-intro">A summary of my experience, education, skills and awards.</p>
+				<p class="actions">
+					<a class="btn primary" href="cv.html">Read online</a>
+					<a class="btn" href="cv.html">Print or save as PDF</a>
+				</p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="wrap">
+			<p>&copy; 2026 Sangram Keshari Dash &middot; Bangalore, India &middot; <a href="mailto:sangram.dash.iiit@gmail.com">Email</a> &middot; <a href="https://github.com/sangramkesharidash">GitHub</a></p>
+		</div>
+	</footer>
+</body>
 </html>
